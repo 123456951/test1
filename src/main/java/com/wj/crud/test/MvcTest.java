@@ -51,7 +51,7 @@ public class MvcTest {
 		MockHttpServletRequest request = result.getRequest();
 		PageInfo pi = (PageInfo) request.getAttribute("pageInfo");
 		String str=(String) request.getAttribute("str");
-		System.out.println("当前页码："+pi.getPageNum());
+		System.out.println("当前的页码："+pi.getPageNum());
 		
 		System.out.println("总页码："+pi.getPages());
 		System.out.println("总记录数："+pi.getTotal());

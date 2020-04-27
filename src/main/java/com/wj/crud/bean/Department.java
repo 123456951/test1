@@ -3,6 +3,9 @@ package com.wj.crud.bean;
 public class Department {
     private Integer deptId;
 
+    
+    
+    
     private String deptName;
 
     public Integer getDeptId() {
